@@ -20,9 +20,16 @@ type Props = {
   placeHolder: string;
   onReset?: () => void;
   searchQuery?: string;
+  resetPlaceholder?: string;
 };
 
-const SearchBar = ({ onSubmit, onReset, placeHolder, searchQuery }: Props) => {
+const SearchBar = ({
+  onSubmit,
+  onReset,
+  placeHolder,
+  searchQuery,
+  resetPlaceholder = "Reset",
+}: Props) => {
   const form = useForm<SearchForm>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -65,7 +72,7 @@ const SearchBar = ({ onSubmit, onReset, placeHolder, searchQuery }: Props) => {
               <FormControl>
                 <Input
                   {...field}
-                  className="border-none shadow-none text-xl focus-visible:ring-0"
+                  className="border-none shadow-none md:text-xl focus-visible:ring-0 font-mono"
                   placeholder={placeHolder}
                 />
               </FormControl>
@@ -77,11 +84,14 @@ const SearchBar = ({ onSubmit, onReset, placeHolder, searchQuery }: Props) => {
           onClick={handleReset}
           type="button"
           variant="outline"
-          className="rounded-full"
+          className="rounded-full font-mono text-[16px]"
         >
-          Reset
+          {resetPlaceholder}
         </Button>
-        <Button type="submit" className="rounded-full bg-orange-500">
+        <Button
+          type="submit"
+          className="rounded-full bg-orange-500 font-mono text-[16px]"
+        >
           Search
         </Button>
       </form>

@@ -48,36 +48,33 @@ const OrderItemCard = ({ order }: Props) => {
   return (
     <Card>
       <CardHeader>
-        <CardTitle className="grid md:grid-cols-4 gap-4 justify-between mb-3">
+        <CardTitle className="flex flex-col md:justify-evenly md:flex-row gap-4 justify-evenly mb-3 md:text-xl md:text-center">
           <div>
             Customer Name:
-            <span className="ml-2 font-normal">
-              {order.deliveryDetails.name}
-            </span>
+            <span className="font-normal">{order.deliveryDetails.name}</span>
           </div>
           <div>
             Delivery address:
-            <span className="ml-2 font-normal">
+            <span className="font-normal">
               {order.deliveryDetails.addressLine1}, {order.deliveryDetails.city}
             </span>
           </div>
           <div>
             Time:
-            <span className="ml-2 font-normal">{getTime()}</span>
+            <span className="font-normal">{getTime()}</span>
           </div>
           <div>
             Total Cost:
-            <span className="ml-2 font-normal">
+            <span className="font-normal">
               £{(order.totalAmount / 100).toFixed(2)}
             </span>
           </div>
         </CardTitle>
-        <Separator />
       </CardHeader>
-      <CardContent className="flex flex-col gap-6">
+      <CardContent className="flex flex-col gap-8">
         <div className="flex flex-col gap-2">
           {order.cartItems.map((cartItem) => (
-            <span>
+            <span className="md:text-lg">
               <Badge variant="outline" className="mr-2">
                 {cartItem.quantity}
               </Badge>
@@ -86,18 +83,22 @@ const OrderItemCard = ({ order }: Props) => {
           ))}
         </div>
         <div className="flex flex-col space-y-1.5">
-          <Label htmlFor="status">What is the status of this order?</Label>
+          <Label htmlFor="status" className=" md:text-xl">
+            What is the status of this order?
+          </Label>
           <Select
             value={status}
             disabled={isLoading}
             onValueChange={(value) => handleStatusChange(value as OrderStatus)}
           >
-            <SelectTrigger id="status">
+            <SelectTrigger className="md:text-lg" id="status">
               <SelectValue placeholder="Status" />
             </SelectTrigger>
             <SelectContent position="popper">
               {ORDER_STATUS.map((status) => (
-                <SelectItem value={status.value}>{status.label}</SelectItem>
+                <SelectItem className="md:text-lg" value={status.value}>
+                  {status.label}
+                </SelectItem>
               ))}
             </SelectContent>
           </Select>

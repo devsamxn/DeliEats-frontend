@@ -17,8 +17,8 @@ const ImageSection = () => {
   return (
     <div className="space-y-2">
       <div>
-        <h2 className="text-2xl font-bold">Image</h2>
-        <FormDescription>
+        <h2 className="md:text-2xl font-bold">Image</h2>
+        <FormDescription className="md:text-lg">
           Add an image that will be displayed on your restaurant listing in the
           search results. Adding a new image will overwrite the existing one.
         </FormDescription>
@@ -38,7 +38,7 @@ const ImageSection = () => {
           name="imageFile"
           render={({ field }) => (
             <FormItem>
-              <FormControl>
+              <FormControl className="md:text-base">
                 <Input
                   className="bg-white"
                   type="file"
@@ -50,7 +50,7 @@ const ImageSection = () => {
                   }
                 />
               </FormControl>
-              <FormMessage />
+              <FormMessage className="md:text-base"/>
             </FormItem>
           )}
         />

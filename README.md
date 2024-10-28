@@ -1,12 +1,12 @@
-# 🏡 Deli-Eats Food Delivery App 🏡  (*** The application is still under development, with continuous deployment currently in progress. Feel free to check out my other completed projects. - [The Highland Haven](https://thehighlandhaven.vercel.app) | - [The Highland Haven Employee App](https://thehighlandhaven-staff.vercel.app))
+# 🏡 Deli-Eats Food Delivery App 🏡 
 
-Welcome to the documentation for **_Deli-Eats_** application.  This application has been developed with a strong emphasis on best practices and adherence to enterprise-level standards. Every aspect of the project has been carefully designed to ensure maintainability, and performance. Additionally, modular and reusable code patterns have been employed to guarantee that the application remains robust and adaptable as it evolves. This documentation will guide you through the application’s features and assist you in making the most out of the application.
+Welcome to the documentation for **_Deli-Eats_** application. This application has been developed with a strong emphasis on best practices and adherence to enterprise-level standards. Every aspect of the project has been carefully designed to ensure maintainability, and performance. Additionally, modular and reusable code patterns have been employed to guarantee that the application remains robust and adaptable as it evolves. This documentation will guide you through the application’s features and assist you in making the most out of the application.
 
 ## 🚀 Live Demo
 
 - [Deli-Eats](https://eats-4yyn.onrender.com/)
 
-## 📝 Features (*includes future updates)
+## 📝 Features (\*includes future updates)
 
 - **User Registration and Authentication**: Secure user sign-ups and logins with robust authentication mechanisms.
 
@@ -32,7 +32,7 @@ Welcome to the documentation for **_Deli-Eats_** application.  This application 
 
 - **Tailwind CSS**: A utility-first CSS framework with a focus on responsive, mobile-first design.
 
-- **Auth0**:  A comprehensive authentication and authorization platform for securing applications and managing user identities.
+- **Auth0**: A comprehensive authentication and authorization platform for securing applications and managing user identities.
 
 - **TanStack Query(react-query)**: A library for data fetching and state management in React applications.
 

@@ -76,7 +76,7 @@ const SearchPage = () => {
   }
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-[250px_1fr] gap-5">
+    <div className="grid grid-cols-1 md:grid-cols-[250px_1fr] gap-5 font-mono">
       <div id="cuisines-list">
         <CuisineFilter
           selectedCuisines={searchState.selectedCuisines}
@@ -91,10 +91,11 @@ const SearchPage = () => {
         <SearchBar
           searchQuery={searchState.searchQuery}
           onSubmit={setSearchQuery}
-          placeHolder="Search by Cuisine or Restaurant Name"
+          placeHolder="Cuisine/Restaurant Name"
           onReset={resetSearch}
+          resetPlaceholder="X"
         />
-        <div className="flex justify-between flex-col gap-3 lg:flex-row">
+        <div className="flex justify-between flex-col gap-3 lg:flex-row md:mx-5">
           <SearchResultInfo total={results.pagination.total} city={city} />
           <SortOptionDropdown
             sortOption={searchState.sortOption}

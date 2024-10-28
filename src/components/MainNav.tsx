@@ -7,10 +7,13 @@ const MainNav = () => {
   const { loginWithRedirect, isAuthenticated } = useAuth0();
 
   return (
-    <span className="flex space-x-2 items-center">
+    <span className="flex space-x-2 items-center text-xl font-mono">
       {isAuthenticated ? (
         <>
-          <Link to="/order-status" className="font-bold hover:text-orange-500">
+          <Link
+            to="/order-status"
+            className=" p-0.5 px-3 hover:text-black hover:border-b-2 hover:border-b-orange-300 rounded-2xl hover:bg-orange-200"
+          >
             Order Status
           </Link>
           <UsernameMenu />
@@ -18,10 +21,10 @@ const MainNav = () => {
       ) : (
         <Button
           variant="ghost"
-          className="font-bold hover:text-orange-500 hover:bg-white"
+          className="hover:text-black text-xl hover:border-white rounded-2xl hover:bg-orange-200 border-2 border-black"
           onClick={async () => await loginWithRedirect()}
         >
-          Log In
+          Sign In
         </Button>
       )}
     </span>

@@ -4,13 +4,16 @@ import MainNav from "./MainNav";
 
 const Header = () => {
   return (
-    <div className="border-b-2 border-b-orange-500 py-6">
+    <div className="border-b-2 border-b-orange-500 py-3">
       <div className="container mx-auto flex justify-between items-center">
         <Link
           to="/"
           className="text-3xl font-bold tracking-tight text-orange-500"
         >
-          MernEats.com
+          <img
+            className="max-w-[125px] md:max-w-[200px] max-h-[100px]"
+            src="/assets/logo.png"
+          />
         </Link>
         <div className="md:hidden">
           <MobileNav />

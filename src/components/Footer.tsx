@@ -1,13 +1,10 @@
 const Footer = () => {
   return (
-    <div className="bg-orange-500 py-10">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-        <span className="text-3xl text-white font-bold tracking-tight">
-          MernEats.com
-        </span>
-        <span className="text-white font-bold tracking-tight flex gap-4">
-          <span>Privacy Policy</span>
-          <span>Terms of Service</span>
+    <div className="bg-white py-3 border-t-orange-500 border-t-2">
+      <div className="container mx-auto flex flex-col md:flex-row justify-center items-center max-h-[100px]">
+        <span className="bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent font-mono font-bold md:text-2xl">
+          Project created by Sameer Negi, Indian Institute of Technology
+          Guwahati
         </span>
       </div>
     </div>
@@ -15,3 +12,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+// bg-gradient-to-r from-amber-500 to-pink-500

@@ -20,16 +20,20 @@ const ManageRestaurantPage = () => {
   const isEditing = !!restaurant;
 
   return (
-    <Tabs defaultValue="orders">
-      <TabsList>
-        <TabsTrigger value="orders">Orders</TabsTrigger>
-        <TabsTrigger value="manage-restaurant">Manage Restaurant</TabsTrigger>
+    <Tabs defaultValue="orders" className="space-y-5">
+      <TabsList className="font-mono">
+        <TabsTrigger value="orders" className="md:text-xl font-bold">
+          Orders
+        </TabsTrigger>
+        <TabsTrigger value="manage-restaurant" className="md:text-xl font-bold">
+          Manage Restaurant
+        </TabsTrigger>
       </TabsList>
       <TabsContent
         value="orders"
-        className="space-y-5 bg-gray-50 p-10 rounded-lg"
+        className="space-y-5 bg-gray-50 py-6 px-10 rounded-2xl font-mono"
       >
-        <h2 className="text-2xl font-bold">{orders?.length} active orders</h2>
+        <h2 className="md:text-2xl font-bold">{orders?.length} Active Orders</h2>
         {orders?.map((order) => (
           <OrderItemCard order={order} />
         ))}
