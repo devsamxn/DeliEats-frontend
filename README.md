@@ -1,7 +1,7 @@
 # 🏡 Deli-Eats Food Delivery App 🏡 
 
 Welcome to the documentation for **_Deli-Eats_** application. This application has been developed with a strong emphasis on best practices and adherence to enterprise-level standards. Every aspect of the project has been carefully designed to ensure maintainability, and performance. Additionally, modular and reusable code patterns have been employed to guarantee that the application remains robust and adaptable as it evolves. This documentation will guide you through the application’s features and assist you in making the most out of the application.
-
+[WhatsApp Image 2024-10-29 at 00 50 16_52c587ea](https://github.com/user-attachments/assets/60baf662-6d43-4e9e-841d-b0bf921adc44)
 ## 🚀 Live Demo
 
 - [Deli-Eats](https://eats-4yyn.onrender.com/)
