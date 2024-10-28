@@ -6,7 +6,6 @@ import {
   CardHeader,
   CardTitle,
 } from "./ui/card";
-import { Dot } from "lucide-react";
 
 type Props = {
   restaurant: Restaurant;
@@ -25,7 +24,7 @@ const RestaurantInfo = ({ restaurant }: Props) => {
       </CardHeader>
       <CardContent className="flex md:text-lg">
         <div className="flex flex-1 justify-evenly">
-          {restaurant.cuisines.map((item, index) => (
+          {restaurant.cuisines.map((item) => (
             <div className="flex">
               <div>{item}</div>
               {/* {index < restaurant.cuisines.length - 1 && <Dot />} */}

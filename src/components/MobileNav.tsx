@@ -14,8 +14,11 @@ import { useState } from "react";
 
 const MobileNav = () => {
   const { isAuthenticated, loginWithRedirect, user } = useAuth0();
-  const username =
-    user?.email?.length > 10 ? user?.email?.slice(0, 10) + "..." : user?.email;
+  const username = user?.email
+    ? user.email.length > 10
+      ? user.email.slice(0, 10) + "..."
+      : user.email
+    : "";
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -25,7 +28,7 @@ const MobileNav = () => {
         <Menu className="text-orange-500" />
       </SheetTrigger>
       <SheetContent className="space-y-3 w-[200px] font-mono">
-        <SheetTitle> 
+        <SheetTitle>
           {isAuthenticated ? (
             <span className="flex items-center font-bold gap-2">
               <CircleUserRound className="text-orange-500" />
@@ -40,7 +43,7 @@ const MobileNav = () => {
         <Separator />
         <SheetDescription className="flex flex-col items-center gap-4">
           {isAuthenticated ? (
-            <MobileNavLinks closeSheet={()=>setIsOpen(false)} />
+            <MobileNavLinks closeSheet={() => setIsOpen(false)} />
           ) : (
             <Button
               onClick={() => loginWithRedirect()}
