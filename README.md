@@ -31,6 +31,7 @@ Welcome to the documentation for **_Deli-Eats_** application. This application h
 ## 🖼 Some Screenshots (Mobile Experience)
 ![homepage](https://github.com/user-attachments/assets/b8a24657-0db7-4f00-b90c-215c3583796f)
 
+<img src="[https://your-image-url.type](https://github.com/user-attachments/assets/b8a24657-0db7-4f00-b90c-215c3583796f)" width="100" height="200">
 ![restaurant_search](https://github.com/user-attachments/assets/0f84be9d-0f3e-43f7-a2bd-ac961d4b3d04)
 
 ![restaurant_search2](https://github.com/user-attachments/assets/df2c9fa7-6425-4c38-9811-2a10e55bd57e)
