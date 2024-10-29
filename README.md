@@ -30,12 +30,11 @@ Welcome to the documentation for **_Deli-Eats_** application. This application h
 
 ## 🖼 Some Screenshots (Mobile Experience)
 
-<img src="https://github.com/user-attachments/assets/b8a24657-0db7-4f00-b90c-215c3583796f" width="300" height="600">
-<img src="https://github.com/user-attachments/assets/eeedfc13-545e-48e7-a352-55089bfffd7a" width="300" height="600">
-<img src="https://github.com/user-attachments/assets/7287c861-39a7-4267-a4c9-fe5922abf5e1" width="300" height="600">
 <img src="https://github.com/user-attachments/assets/cacab0d7-13d5-453a-83f8-66406297ced7" width="300" height="600">
 <img src="https://github.com/user-attachments/assets/2f0a21c1-cecc-4069-b27c-5fd6b436f2be" width="300" height="600">
 <img src="https://github.com/user-attachments/assets/dd6bab34-9939-4fe1-83a9-e92eac3346f7" width="300" height="600">
+<img src="https://github.com/user-attachments/assets/eeedfc13-545e-48e7-a352-55089bfffd7a" width="300" height="600">
+<img src="https://github.com/user-attachments/assets/7287c861-39a7-4267-a4c9-fe5922abf5e1" width="300" height="600">
 <img src="https://github.com/user-attachments/assets/ec7330e4-643d-4a9e-8d68-c958bbe977e7" width="300" height="600">
 
 
