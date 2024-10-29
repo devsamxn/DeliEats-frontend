@@ -1,7 +1,7 @@
 # 🏡 Deli-Eats Food Delivery App 🏡 
 
 Welcome to the documentation for **_Deli-Eats_** application. This application has been developed with a strong emphasis on best practices and adherence to enterprise-level standards. Every aspect of the project has been carefully designed to ensure maintainability, and performance. Additionally, modular and reusable code patterns have been employed to guarantee that the application remains robust and adaptable as it evolves. This documentation will guide you through the application’s features and assist you in making the most out of the application.
-## 🖼 Screenshots (Desktop Experience)
+## 🖼 Some Screenshots (Desktop Experience)
 ![Homepage](https://github.com/user-attachments/assets/aaca2f2f-9b7a-4f77-8bd7-7c3cf257dfad)
 
   
@@ -28,7 +28,17 @@ Welcome to the documentation for **_Deli-Eats_** application. This application h
 
 ![User Order Details Page](https://github.com/user-attachments/assets/cc362ebf-c8f8-458b-80a6-039c54348e90)
 
-## 🖼 Screenshots (Mobile Experience)
+## 🖼 Some Screenshots (Mobile Experience)
+![homepage](https://github.com/user-attachments/assets/b8a24657-0db7-4f00-b90c-215c3583796f)
+
+![restaurant_search](https://github.com/user-attachments/assets/0f84be9d-0f3e-43f7-a2bd-ac961d4b3d04)
+
+![restaurant_search2](https://github.com/user-attachments/assets/df2c9fa7-6425-4c38-9811-2a10e55bd57e)
+
+![user_cart](https://github.com/user-attachments/assets/478cbc19-d632-4c87-8cd1-cde48f1a0018)
+
+![user_profile](https://github.com/user-attachments/assets/8006b464-6f85-4ed5-b4e8-1f7b318902ae)
+
 
 ## 🚀 Live Demo
 
