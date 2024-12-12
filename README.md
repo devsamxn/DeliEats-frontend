@@ -37,10 +37,6 @@ Welcome to the documentation for **_Deli-Eats_** application. This application h
 
 - **Shopping Cart Management**: Manage multiple items in the shopping cart, allowing users to add, update, or remove items seamlessly.
 
-- **Checkout**: Streamline the payment process with an integrated checkout feature.
-
-- **Real-Time Order Tracking**: Track order status in real-time, from preparation to delivery.
-
 - **Restaurant Owner Tools:**: Provide restaurant owners with the ability to manage profiles, list available cuisines, update offerings, upload images, and give real-time updates on delivery status.
 
 ## 💻 Tech Stack
