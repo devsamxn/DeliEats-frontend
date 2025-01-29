@@ -26,7 +26,7 @@ const HomePage = () => {
           Food is just a click away!
         </span>
         <div className="md:px-16">
-          <SearchBar placeHolder="City or Town" onSubmit={handleSearchSubmit} />
+          <SearchBar placeHolder="City (ex: Delhi)" onSubmit={handleSearchSubmit} />
         </div>
         <div className="gap-5">
           <img src={landingImage} />
